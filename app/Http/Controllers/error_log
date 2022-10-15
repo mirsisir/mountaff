@@ -1,0 +1,112 @@
+[13-Oct-2022 04:58:38 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SMSModelsController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SMSModelsController.php on line 12
+[13-Oct-2022 05:02:54 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/AppBaseController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/AppBaseController.php on line 19
+[13-Oct-2022 05:03:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/AssetCategoriesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/AssetCategoriesController.php on line 10
+[13-Oct-2022 05:03:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/BuySmsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/BuySmsController.php on line 10
+[13-Oct-2022 05:03:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/CategoriesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/CategoriesController.php on line 10
+[13-Oct-2022 05:04:02 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/Controller.php on line 10
+[13-Oct-2022 05:04:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/HomeController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/HomeController.php on line 7
+[13-Oct-2022 05:04:20 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/IVAsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/IVAsController.php on line 10
+[13-Oct-2022 05:04:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/PagesController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PagesController.php on line 11
+[13-Oct-2022 05:04:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\AppBaseController' not found in /home/mounmwwu/public_html/app/Http/Controllers/PersonController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PersonController.php on line 13
+[13-Oct-2022 05:04:38 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/PostsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PostsController.php on line 10
+[13-Oct-2022 05:04:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SmsContactsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SmsContactsController.php on line 10
+[13-Oct-2022 05:05:00 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SmsTemplatesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SmsTemplatesController.php on line 10
+[13-Oct-2022 05:05:09 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/StudentsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/StudentsController.php on line 10
+[13-Oct-2022 05:56:59 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/StudentsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/StudentsController.php on line 10
+[13-Oct-2022 05:57:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SmsTemplatesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SmsTemplatesController.php on line 10
+[13-Oct-2022 05:57:13 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SmsContactsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SmsContactsController.php on line 10
+[13-Oct-2022 05:57:20 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/SMSModelsController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/SMSModelsController.php on line 12
+[13-Oct-2022 05:57:28 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/PostsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PostsController.php on line 10
+[13-Oct-2022 05:57:37 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\AppBaseController' not found in /home/mounmwwu/public_html/app/Http/Controllers/PersonController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PersonController.php on line 13
+[13-Oct-2022 05:57:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/PagesController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/PagesController.php on line 11
+[13-Oct-2022 05:57:54 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/IVAsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/IVAsController.php on line 10
+[13-Oct-2022 05:58:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/HomeController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/HomeController.php on line 7
+[13-Oct-2022 05:58:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/Controller.php on line 10
+[13-Oct-2022 05:58:23 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/CategoriesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/CategoriesController.php on line 10
+[13-Oct-2022 05:58:34 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/BuySmsController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/BuySmsController.php on line 10
+[13-Oct-2022 05:58:44 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/AssetCategoriesController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/AssetCategoriesController.php on line 10
+[13-Oct-2022 05:58:54 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/mounmwwu/public_html/app/Http/Controllers/AppBaseController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Controllers/AppBaseController.php on line 19

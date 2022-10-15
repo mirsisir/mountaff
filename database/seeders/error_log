@@ -1,0 +1,8 @@
+[13-Oct-2022 03:25:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/mounmwwu/public_html/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/database/seeders/DatabaseSeeder.php on line 7
+[13-Oct-2022 04:19:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/mounmwwu/public_html/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/database/seeders/DatabaseSeeder.php on line 7

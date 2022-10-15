@@ -1,0 +1,8 @@
+[13-Oct-2022 03:36:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function database_path() in /home/mounmwwu/public_html/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/config/infyom/laravel_generator.php on line 14
+[13-Oct-2022 04:23:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function database_path() in /home/mounmwwu/public_html/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/config/infyom/laravel_generator.php on line 14

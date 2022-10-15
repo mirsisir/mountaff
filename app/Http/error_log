@@ -1,0 +1,8 @@
+[13-Oct-2022 03:44:28 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/mounmwwu/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Kernel.php on line 7
+[13-Oct-2022 04:26:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/mounmwwu/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/app/Http/Kernel.php on line 7

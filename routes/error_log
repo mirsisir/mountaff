@@ -1,0 +1,32 @@
+[13-Oct-2022 02:44:55 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/mounmwwu/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/web.php on line 26
+[13-Oct-2022 02:45:02 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/mounmwwu/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/console.php on line 17
+[13-Oct-2022 02:45:09 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/mounmwwu/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/channels.php on line 16
+[13-Oct-2022 02:45:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/mounmwwu/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/api.php on line 17
+[13-Oct-2022 03:48:13 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/mounmwwu/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/web.php on line 26
+[13-Oct-2022 03:48:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/mounmwwu/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/console.php on line 17
+[13-Oct-2022 03:48:37 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/mounmwwu/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/channels.php on line 16
+[13-Oct-2022 03:48:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/mounmwwu/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mounmwwu/public_html/routes/api.php on line 17
