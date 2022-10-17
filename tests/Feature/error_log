@@ -1,8 +1,0 @@
-[13-Oct-2022 03:29:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/mounmwwu/public_html/tests/Feature/ExampleTest.php:8
-Stack trace:
-#0 {main}
-  thrown in /home/mounmwwu/public_html/tests/Feature/ExampleTest.php on line 8
-[13-Oct-2022 04:19:42 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/mounmwwu/public_html/tests/Feature/ExampleTest.php:8
-Stack trace:
-#0 {main}
-  thrown in /home/mounmwwu/public_html/tests/Feature/ExampleTest.php on line 8

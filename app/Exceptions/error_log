@@ -1,8 +1,0 @@
-[13-Oct-2022 03:44:58 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/mounmwwu/public_html/app/Exceptions/Handler.php:7
-Stack trace:
-#0 {main}
-  thrown in /home/mounmwwu/public_html/app/Exceptions/Handler.php on line 7
-[13-Oct-2022 04:27:07 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/mounmwwu/public_html/app/Exceptions/Handler.php:7
-Stack trace:
-#0 {main}
-  thrown in /home/mounmwwu/public_html/app/Exceptions/Handler.php on line 7
