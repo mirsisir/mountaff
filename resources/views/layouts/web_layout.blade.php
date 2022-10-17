@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Rapid Bootstrap Template - Index</title>
+    <title>MountApp Bootstrap Template - Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -35,7 +35,7 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="index.html">Rapid</a></h1>
+        <h1 class="logo me-auto"><a href="index.html">MountApp</a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -80,15 +80,15 @@
 <section id="hero" class="clearfix">
     <div class="container d-flex h-100">
         <div class="row justify-content-center align-self-center" data-aos="fade-up">
-            <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                <h2>Rapid Solutions<br>for Your <span>Business!</span></h2>
+            <div class="col-lg-6  intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
+                <h2>MountApp Solutions<br>for Your <span>Business!</span></h2>
                 <div>
                     <a href="#about" class="btn-get-started scrollto">Get Started</a>
                 </div>
             </div>
 
-            <div class="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{asset('web/assets/img/intro-img.svg')}}" alt="" class="img-fluid">
+            <div class="col-lg-6  order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
+                <img style="   filter: grayscale(100%);" src="https://www.pngarts.com/files/18/Illustration-PNG-HQ-Picture.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -110,7 +110,7 @@
                         <div class="col-sm-6">
 
                             <div class="footer-info">
-                                <h3>Rapid</h3>
+                                <h3>MountApp</h3>
                                 <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                             </div>
 
@@ -201,14 +201,14 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+            &copy; Copyright <strong>MountApp</strong>. All Rights Reserved
         </div>
         <div class="credits">
             <!--
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MountApp
           -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
