@@ -14,7 +14,8 @@
     <link href="{{asset('web/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+          rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{asset('web/assets/vendor/aos/aos.css')}}" rel="stylesheet">
@@ -39,7 +40,7 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="{{route('home')}}`#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
@@ -76,24 +77,7 @@
     </div>
 </header><!-- End Header -->
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="clearfix">
-    <div class="container d-flex h-100">
-        <div class="row justify-content-center align-self-center" data-aos="fade-up">
-            <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                <h2>Rapid Solutions<br>for Your <span>Business!</span></h2>
-                <div>
-                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                </div>
-            </div>
 
-            <div class="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{asset('web/assets/img/intro-img.svg')}}" alt="" class="img-fluid">
-            </div>
-        </div>
-
-    </div>
-</section><!-- End Hero -->
 
 @yield('content')
 <!-- ======= Footer ======= -->
@@ -111,12 +95,18 @@
 
                             <div class="footer-info">
                                 <h3>Rapid</h3>
-                                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                                <p>IMonetizeIt provides variety of special abilities to make your business more
+                                    profitable.
+
+                                    Increase your revenue with IMI Smart technologies:</p>
                             </div>
 
                             <div class="footer-newsletter">
                                 <h4>Our Newsletter</h4>
-                                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
+                                <p>Direct offers or
+                                    exclusive Smartlinks?
+                                    Whatever you choose, iMonetizeIt will give you multiple opportunities for the best
+                                    performance.</p>
                                 <form action="" method="post">
                                     <input type="email" name="email"><input type="submit" value="Subscribe">
                                 </form>
@@ -128,11 +118,11 @@
                             <div class="footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="{{route('home')}}">Home</a></li>
                                     <li><a href="#about">About us</a></li>
                                     <li><a href="#">Services</a></li>
                                     <li><a href="#">Terms of service</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="{{route('privacypolicy')}}">Privacy policy</a></li>
                                 </ul>
                             </div>
 
@@ -165,20 +155,25 @@
                     <div class="form">
 
                         <h4>Send us a message</h4>
-                        <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+                        <p>We have custom plans to power your business. Tell us your needs, and we'll contact you
+                            shortly.</p>
 
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                       required>
                             </div>
                             <div class="form-group mt-3">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Your Email" required>
                             </div>
                             <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                       placeholder="Subject" required>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                          required></textarea>
                             </div>
 
                             <div class="my-3">
@@ -187,7 +182,9 @@
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
 
-                            <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                            <div class="text-center">
+                                <button type="submit" title="Send Message">Send Message</button>
+                            </div>
                         </form>
 
                     </div>
@@ -215,7 +212,8 @@
     </div>
 </footer><!-- End  Footer -->
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
 <script src="{{asset('web/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>

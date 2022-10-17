@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 // Example Routes
 Route::get('/', [WebsiteController::class, 'index'])->name('home');
 Route::get('/blog', [WebsiteController::class, 'blog'])->name('blog');
+Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name('privacypolicy');
 
 Route::match(['get', 'post'], '/dashboard', function(){
     return view('dashboard');

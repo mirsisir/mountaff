@@ -15,4 +15,8 @@ class WebsiteController extends Controller
 
         return view('web.blog');
     }
+    public function privacypolicy(){
+
+        return view('web.privacypolicy');
+    }
 }
