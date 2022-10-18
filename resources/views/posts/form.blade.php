@@ -49,7 +49,7 @@
 
 
         @if(''===' required="true"') <span class="text-danger font-bolder">*</span> @endif
-        <input class="form-control  {{ $errors->has('body') ? 'is-invalid' : '' }}" name="body" type="text" id="body"
+        <input style="min-height: 500px;" class="form-control  {{ $errors->has('body') ? 'is-invalid' : '' }}" name="body" type="text" id="body"
                value="{{ old('body', optional($post)->body) }}" minlength="1" data="" placeholder="Enter body here...">
 
 
@@ -100,9 +100,16 @@
 
 
 <script>
-    CKEDITOR.replace('body',{
-        filebrowserBrowseUrl: '/browser/browse.php?type=Files',
-        filebrowserUploadUrl: '/editor/upload'
+    CKEDITOR.config.filebrowserUploadMethod = 'form'
+    CKEDITOR.config.height = '550px';
+    CKEDITOR.replace('body', {
+        // filebrowserBrowseUrl: '/browser/browse.php?type=Files',
+        filebrowserUploadMethod: 'form',
+        filebrowserUploadUrl: "{{route('editor.upload', ['_token' => csrf_token() ])}}"
     });
+
+    function enam() {
+        alert('WHATSUP');
+    }
 
 </script>
