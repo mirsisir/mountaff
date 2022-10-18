@@ -1,0 +1,48 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model
+{
+    
+
+
+    protected $table = 'posts';
+
+    /**
+    * The database primary key value.
+    *
+    * @var string
+    */
+    protected $primaryKey = 'id';
+
+    protected $fillable = [
+                  'author',
+                  'title',
+                  'slug',
+                  'body',
+                  'is_published',
+                  'category_id'
+              ];
+
+
+    protected $dates = [];
+
+
+    protected $casts = [];
+
+    /**
+     * Get the category for this model.
+     *
+     * @return App\Models\Category
+     */
+    public function category()
+    {
+        return $this->belongsTo('App\Models\Category','category_id');
+    }
+
+
+
+}
