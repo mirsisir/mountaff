@@ -69,20 +69,22 @@ Route::group([
 });
 
 Route::post('editor/upload', function (Request $request) {
-    if($request->hasFile('upload')) {
-        $originName = $request->file('upload')->getClientOriginalName();
-        $fileName = pathinfo($originName, PATHINFO_FILENAME);
-        $extension = $request->file('upload')->getClientOriginalExtension();
-        $fileName = $fileName.'_'.time().'.'.$extension;
+//    dd($request->all(),$request->hasFile('upload'));
 
-        $request->file('upload')->move(public_path('images'), $fileName);
-
-        $CKEditorFuncNum = $request->input('CKEditorFuncNum');
-        $url = asset('images/'.$fileName);
-        $msg = 'Image uploaded successfully';
-        $response = "<script>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url', '$msg')</script>";
-
+    if ($request->has('upload')) {
+        $path = $request->upload->store('public/images');
+        $path = \Illuminate\Support\Str::replace('public/', 'storage/', $path);
+//        $imageName = time() . '.' . $request->upload->extension();
+//        $p = $request->upload->move(public_path('uploads'), $imageName);
+        // Required: anonymous function reference number as explained above.
+        $funcNum = $request->CKEditorFuncNum??4;
+        $message = "DONE";
+        $path = asset($path);
+        $token = $_POST['ckCsrfToken'] ;
         @header('Content-type: text/html; charset=utf-8');
-        echo $response;
+
+        echo "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction('$funcNum', '$path', '$message');</script>";
+
+//        return asset($path);
     }
-});
+})->name('editor.upload');
