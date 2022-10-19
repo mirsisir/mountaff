@@ -6,16 +6,32 @@ use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
         return view('web.web_index');
     }
 
-    public function blog(){
+    public function blog()
+    {
 
-        return view('web.blog');
+
+        $posts = \App\Models\Post::query()->where('is_published', '1')->latest()->paginate(5);
+//        dd($posts);
+        return view('web.blog', compact('posts'));
     }
-    public function privacypolicy(){
+
+    public function page($slug)
+    {
+
+
+        $post = \App\Models\Post::where('slug', $slug)->firstOrFail();
+//        dd($post);
+        return view('web.post_page', compact('post'));
+    }
+
+    public function privacypolicy()
+    {
 
         return view('web.privacypolicy');
     }

@@ -56,7 +56,7 @@
                                 <td>{{ $post->author }}</td>
                             <td>{{ $post->title }}</td>
                             <td>{{ $post->slug }}</td>
-                            <td>{{ $post->body }}</td>
+                            <td>{{ $post->summary }}</td>
                             <td>{{ ($post->is_published) ? 'Yes' : 'No' }}</td>
                             <td>{{ optional($post->category)->title }}</td>
 

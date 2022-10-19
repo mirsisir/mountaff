@@ -48,8 +48,9 @@
         <label for="body">Body</label>
 
 
-        @if(''===' required="true"') <span class="text-danger font-bolder">*</span> @endif
-        <input style="min-height: 500px;" class="form-control  {{ $errors->has('body') ? 'is-invalid' : '' }}" name="body" type="text" id="body"
+        <span class="text-danger font-bolder">*</span>
+        <input style="min-height: 500px;" class="form-control  {{ $errors->has('body') ? 'is-invalid' : '' }}"
+               name="body" type="text" id="body"
                value="{{ old('body', optional($post)->body) }}" minlength="1" data="" placeholder="Enter body here...">
 
 
@@ -108,8 +109,14 @@
         filebrowserUploadUrl: "{{route('editor.upload', ['_token' => csrf_token() ])}}"
     });
 
-    function enam() {
-        alert('WHATSUP');
-    }
+
+    $('.form-horizontal').submit(function () {
+        var desc = CKEDITOR.instances.body.getData();
+        // alert("intercept" + desc)
+
+        $("#body").val(desc)
+        // return false
+    });
+
 
 </script>
