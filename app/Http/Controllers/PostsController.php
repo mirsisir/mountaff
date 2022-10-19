@@ -14,7 +14,7 @@ class PostsController extends Controller
 
     public function index()
     {
-        $posts = Post::with('category')->paginate(25);
+        $posts = Post::with('category')->laatest()->paginate(25);
 
         return view('posts.index', compact('posts'));
     }
@@ -22,7 +22,7 @@ class PostsController extends Controller
 
     public function create()
     {
-        $categories = Category::pluck('title','id')->all();
+        $categories = Category::pluck('title', 'id')->all();
 
         return view('posts.create', compact('categories'));
     }
@@ -31,13 +31,13 @@ class PostsController extends Controller
     public function store(Request $request)
     {
 
-            
-            $data = $this->getData($request);
-            
-            Post::create($data);
 
-            return redirect()->route('posts.post.index')
-                ->with('success_message', 'Post was successfully added.');
+        $data = $this->getData($request);
+
+        Post::create($data);
+
+        return redirect()->route('posts.post.index')
+            ->with('success_message', 'Post was successfully added.');
 
     }
 
@@ -53,23 +53,23 @@ class PostsController extends Controller
     public function edit($id)
     {
         $post = Post::findOrFail($id);
-        $categories = Category::pluck('title','id')->all();
+        $categories = Category::pluck('title', 'id')->all();
 
-        return view('posts.edit', compact('post','categories'));
+        return view('posts.edit', compact('post', 'categories'));
     }
 
 
     public function update($id, Request $request)
     {
 
-            
-            $data = $this->getData($request);
-            
-            $post = Post::findOrFail($id);
-            $post->update($data);
 
-            return redirect()->route('posts.post.index')
-                ->with('success_message', 'Post was successfully updated.');
+        $data = $this->getData($request);
+
+        $post = Post::findOrFail($id);
+        $post->update($data);
+
+        return redirect()->route('posts.post.index')
+            ->with('success_message', 'Post was successfully updated.');
 
     }
 
@@ -89,25 +89,25 @@ class PostsController extends Controller
         }
     }
 
-    
+
     /**
      * Get the request's data from the request.
      *
-     * @param Illuminate\Http\Request\Request $request 
+     * @param Illuminate\Http\Request\Request $request
      * @return array
      */
     protected function getData(Request $request)
     {
         $rules = [
-                'author' => 'string|min:1|nullable',
+            'author' => 'string|min:1|nullable',
             'title' => 'string|min:1|max:255|nullable',
             'slug' => 'string|min:1|nullable',
             'body' => 'string|min:1|nullable',
             'is_published' => 'boolean|nullable',
-            'category_id' => 'nullable', 
+            'category_id' => 'nullable',
         ];
 
-        
+
         $data = $request->validate($rules);
 
 

@@ -20,6 +20,7 @@ use App\Http\Controllers\PostsController;
 // Example Routes
 Route::get('/', [WebsiteController::class, 'index'])->name('home');
 Route::get('/blog', [WebsiteController::class, 'blog'])->name('blog');
+Route::get('/pages/{slug}', [WebsiteController::class, 'page'])->name('blog.page');
 Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name('privacypolicy');
 
 Route::match(['get', 'post'], '/dashboard', function () {
