@@ -585,7 +585,7 @@
     <!-- END Header -->
 
     <!-- Main Container -->
-    <main id="main-container">
+    <main id="main-container " style="padding : 40px; padding-top:80px">
         @yield('content')
     </main>
     <!-- END Main Container -->
@@ -608,6 +608,9 @@
     <!-- END Footer -->
 </div>
 <!-- END Page Container -->
+
+@yield('js')
+@yield('scripts')
 
 <!-- MountApp Core JS -->
 <script src="{{ mix('js/dashmix.app.js') }}"></script>

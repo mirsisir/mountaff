@@ -106,9 +106,7 @@
                                     exclusive Smartlinks?
                                     Whatever you choose, iMonetizeIt will give you multiple opportunities for the best
                                     performance.</p>
-                                <form action="" method="post">
-                                    <input type="email" name="email"><input type="submit" value="Subscribe">
-                                </form>
+                           
                             </div>
 
                         </div>
@@ -157,8 +155,10 @@
                         <p>We have custom plans to power your business. Tell us your needs, and we'll contact you
                             shortly.</p>
 
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="form-group">
+                        <form action="{{route('customer_querys.customer_querys.apistore')}}" action method="post"
+                         role="form" class="php-email-form">
+                            @CSRF   
+                        <div class="form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                                        required>
                             </div>
@@ -199,15 +199,7 @@
         <div class="copyright">
             &copy; Copyright <strong>MountAff</strong>. All Rights Reserved
         </div>
-        <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MountAff
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        
     </div>
 </footer><!-- End  Footer -->
 

@@ -5,6 +5,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\ContactUsesController;
+use App\Http\Controllers\CustomerQuerysController;
 
 /*
 |--------------------------------------------------------------------------
@@ -89,3 +91,25 @@ Route::post('editor/upload', function (Request $request) {
 //        return asset($path);
     }
 })->name('editor.upload');
+
+Route::group([
+    'prefix' => 'customer_querys',
+], function () {
+    Route::get('/', [CustomerQuerysController::class, 'index'])
+         ->name('customer_querys.customer_querys.index');
+    Route::get('/create', [CustomerQuerysController::class, 'create'])
+         ->name('customer_querys.customer_querys.create');
+    Route::get('/show/{customerQuerys}',[CustomerQuerysController::class, 'show'])
+         ->name('customer_querys.customer_querys.show')->where('id', '[0-9]+');
+    Route::get('/{customerQuerys}/edit',[CustomerQuerysController::class, 'edit'])
+         ->name('customer_querys.customer_querys.edit')->where('id', '[0-9]+');
+    Route::post('/', [CustomerQuerysController::class, 'store'])
+         ->name('customer_querys.customer_querys.store');
+         Route::post('/', [CustomerQuerysController::class, 'apistore'])
+         ->name('customer_querys.customer_querys.apistore');
+
+    Route::put('customer_querys/{customerQuerys}', [CustomerQuerysController::class, 'update'])
+         ->name('customer_querys.customer_querys.update')->where('id', '[0-9]+');
+    Route::delete('/customer_querys/{customerQuerys}',[CustomerQuerysController::class, 'index'])
+         ->name('customer_querys.customer_querys.destroy')->where('id', '[0-9]+');
+});

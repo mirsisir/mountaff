@@ -98,5 +98,17 @@
     {
         "model-name": "Post",
         "resource-file": "posts.json"
+    },
+    {
+        "model-name": "ContactUs",
+        "resource-file": "contact_uses.json"
+    },
+    {
+        "model-name": "Contact",
+        "resource-file": "contacts.json"
+    },
+    {
+        "model-name": "CustomerQuerys",
+        "resource-file": "customer_querys.json"
     }
 ]

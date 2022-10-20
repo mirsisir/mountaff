@@ -8,7 +8,7 @@ class WebsiteController extends Controller
 {
     public function index()
     {
-
+ 
         return view('web.web_index');
     }
 
