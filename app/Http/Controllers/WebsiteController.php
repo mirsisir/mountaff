@@ -16,7 +16,7 @@ class WebsiteController extends Controller
     {
 
 
-        $posts = \App\Models\Post::query()->where('is_published', '1')->latest()->paginate(5);
+        $posts = \App\Models\Post::query()->where('is_published', '1')->latest()->paginate(10);
 //        dd($posts);
         return view('web.blog', compact('posts'));
     }

@@ -8,6 +8,10 @@
             font-weight: 700;
 
         }
+         img {
+            width: 100% !important;
+        }
+
     </style>
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">

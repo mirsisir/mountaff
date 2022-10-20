@@ -109,6 +109,8 @@
                                 </div>
                             @endforeach
 
+                            {{ $posts->links() }}
+
 
                             {{--                            <div class="col-md-12">--}}
                             {{--                                <div class="post post-row">--}}

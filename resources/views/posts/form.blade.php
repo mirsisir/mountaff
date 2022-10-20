@@ -103,12 +103,19 @@
 <script>
     CKEDITOR.config.filebrowserUploadMethod = 'form'
     CKEDITOR.config.height = '550px';
+
     CKEDITOR.replace('body', {
         // filebrowserBrowseUrl: '/browser/browse.php?type=Files',
         filebrowserUploadMethod: 'form',
         filebrowserUploadUrl: "{{route('editor.upload', ['_token' => csrf_token() ])}}"
     });
 
+    {{--CKEDITOR.dom.p.setHtml("{!! optional($post)->body !!}")--}}
+    CKEDITOR.instances.body.setData( '{!! optional($post)->body !!}', {
+        callback: function() {
+            this.checkDirty(); // true
+        }
+    } );
 
     $('.form-horizontal').submit(function () {
         var desc = CKEDITOR.instances.body.getData();
