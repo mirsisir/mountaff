@@ -37,7 +37,7 @@
         <div class="card-body">
 
             <div class="table-responsive">
-                <table class="table table-striped table-sm">
+                <table class="table table-striped table-sm" class="display compact" id="myTable">
                     <thead>
                         <tr>
                                 <th>Name</th>
@@ -108,7 +108,8 @@
                  ]
 
              });
-         });
+
+             });
      </script>
 
      <style>

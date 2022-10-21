@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>MountAff Bootstrap Template - Index</title>
+    <title>MountAff </title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -36,11 +36,11 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="{{route('home')}}">MountAff</a></h1>
+        <h1 class="logo me-auto"><a href="{{route('website_home')}}">MountAff</a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{route('home')}}">Home</a></li>
+                <li><a class="nav-link scrollto active" href="{{route('website_home')}}">Home</a></li>
                 <li><a class="nav-link scrollto" href="{{route('home')}}#about">About</a></li>
                 <li><a class="nav-link scrollto" href="{{route('blog')}}">Blog</a></li>
 
@@ -66,12 +66,7 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <div class="social-links">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        </div>
+      
 
     </div>
 </header><!-- End Header -->

@@ -17,8 +17,10 @@ class WebsiteController extends Controller
 
 
         $posts = \App\Models\Post::query()->where('is_published', '1')->latest()->paginate(10);
+        $category = \App\Models\Category::all();
 //        dd($posts);
-        return view('web.Blog', compact('posts'));
+
+        return view('web.Blog', compact('posts','category'));
     }
 
     public function page($slug)
@@ -26,8 +28,9 @@ class WebsiteController extends Controller
 
 
         $post = \App\Models\Post::where('slug', $slug)->firstOrFail();
+        $randoms = \App\Models\Post::all()->random(5)->take(5);
 //        dd($post);
-        return view('web.post_page', compact('post'));
+        return view('web.post_page', compact('post','randoms'));
     }
 
     public function privacypolicy()
