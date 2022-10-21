@@ -91,8 +91,8 @@
                                     <div class="post post-row">
                                         <div class="post-body">
                                             <div class="post-meta d-flex justify-content-between align-items-center">
-                                                <a class="post-category cat-2" href="category.html">JavaScript</a>
-                                                <span class="post-date">March 27, 2018</span>
+                                                <a class="post-category cat-2" href="#">{{$post->category->title}}</a>
+                                                <span class="post-date">{{$post->created_at}}</span>
                                             </div>
                                             <h3 class="post-title"><a
                                                         href="{{ route('blog.page',$post->slug) }}">{{ $post->title }}</a>
@@ -197,10 +197,10 @@
                             </div>
                             <div class="category-widget">
                                 <ul>
-                                    <li><a href="#" class="cat-1">Web Design<span>340</span></a></li>
-                                    <li><a href="#" class="cat-2">JavaScript<span>74</span></a></li>
-                                    <li><a href="#" class="cat-4">JQuery<span>41</span></a></li>
-                                    <li><a href="#" class="cat-3">CSS<span>35</span></a></li>
+                                    @foreach($category as $c)
+                                    <li><a href="#" class="cat-1">{{$c->title}}<span>-</span></a></li>
+                                    @endforeach
+                                
                                 </ul>
                             </div>
                         </div>

@@ -18,9 +18,10 @@ use App\Http\Controllers\CustomerQuerysController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
 // Example Routes
-Route::get('/', [WebsiteController::class, 'index'])->name('home');
+Route::get('/', [WebsiteController::class, 'index'])->name('website_home');
 Route::get('/blog', [WebsiteController::class, 'blog'])->name('blog');
 Route::get('/pages/{slug}', [WebsiteController::class, 'page'])->name('blog.page');
 Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name('privacypolicy');
@@ -29,6 +30,12 @@ Route::match(['get', 'post'], '/dashboard', function () {
 //    dd('test');
     return view('dashboard');
 });
+
+Route::match(['get', 'post'], '/home', function () {
+    //    dd('test');
+        return view('dashboard');
+    });
+
 Route::view('/pages/slick', 'pages.slick');
 Route::view('/pages/datatables', 'pages.datatables');
 Route::view('/pages/blank', 'pages.blank');
@@ -113,3 +120,6 @@ Route::group([
     Route::delete('/customer_querys/{customerQuerys}',[CustomerQuerysController::class, 'index'])
          ->name('customer_querys.customer_querys.destroy')->where('id', '[0-9]+');
 });
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
