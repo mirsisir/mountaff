@@ -28,7 +28,7 @@ class WebsiteController extends Controller
 
 
         $post = \App\Models\Post::where('slug', $slug)->firstOrFail();
-        $randoms = \App\Models\Post::all()->random(5)->take(5);
+        $randoms = \App\Models\Post::inRandomOrder()->limit(6)->get();
 //        dd($post);
         return view('web.post_page', compact('post','randoms'));
     }
