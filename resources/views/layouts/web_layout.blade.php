@@ -36,32 +36,20 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="{{route('website_home')}}">MountAff</a></h1>
+        <h1 class="mt-4 me-auto"><a href="{{route('website_home')}}">
+        <img src="{{asset('images/logo.png')}}" alt="logo" width="200" height="40" style="height: 90px">
+        </a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{route('website_home')}}">Home</a></li>
-                <li><a class="nav-link scrollto" href="{{route('home')}}#about">About</a></li>
-                <li><a class="nav-link scrollto" href="{{route('blog')}}">Blog</a></li>
+                <li><a class="nav-link scrollto" href="{{route('website_home')}}">Home</a></li>
+                <li><a class="nav-link scrollto" href="{{route('website_home')}}#about">About</a></li>
+            
 
-{{--                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>--}}
-{{--                    <ul>--}}
-{{--                        <li><a href="#">Drop Down 1</a></li>--}}
-{{--                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>--}}
-{{--                            <ul>--}}
-{{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li><a href="#">Drop Down 2</a></li>--}}
-{{--                        <li><a href="#">Drop Down 3</a></li>--}}
-{{--                        <li><a href="#">Drop Down 4</a></li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
-                <li><a class="nav-link scrollto" href="{{route('home')}}#footer">Contact</a></li>
+
+                
+                <li><a class="nav-link scrollto" href="#">sign up</a></li>
+                <li><a class="nav-link scrollto" href="#">login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -89,7 +77,7 @@
 
                             <div class="footer-info">
                                 <h3>MountAff</h3>
-                                <p>IMonetizeIt provides variety of special abilities to make your business more
+                                <p>Mountaff provides variety of special abilities to make your business more
                                     profitable.
 
                                     Increase your revenue with IMI Smart technologies:</p>
@@ -99,7 +87,7 @@
                                 <h4>Our Newsletter</h4>
                                 <p>Direct offers or
                                     exclusive Smartlinks?
-                                    Whatever you choose, iMonetizeIt will give you multiple opportunities for the best
+                                    Whatever you choose, Mountaff will give you multiple opportunities for the best
                                     performance.</p>
                            
                             </div>
@@ -110,10 +98,10 @@
                             <div class="footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><a href="{{route('home')}}">Home</a></li>
+                                    <li><a href="{{route('website_home')}}">Home</a></li>
                                     <li><a href="#about">About us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Terms of service</a></li>
+                                    <li><a href="{{route('blog')}}">Blog</a></li>
+                                    
                                     <li><a href="{{route('privacypolicy')}}">Privacy policy</a></li>
                                 </ul>
                             </div>
@@ -125,7 +113,7 @@
                                     New York, NY 535022<br>
                                     United States <br>
                                     <strong>Phone:</strong> +1 5589 55488 55<br>
-                                    <strong>Email:</strong> info@example.com<br>
+                                    <strong>Email:</strong> support@mountaff.com<br>
                                 </p>
                             </div>
 

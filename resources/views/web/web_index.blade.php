@@ -5,10 +5,9 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center" data-aos="fade-up">
                 <div class="col intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2 style="    text-shadow: 2px 1px 3px white;">Your Smartlink. Your CPA.<br> Your ONE Network<br>for Your
-                     <span>Business!</span></h2>
+                    <h2 style="    text-shadow: 2px 1px 3px white;">We can help you build your marketing campaign as your exclusive agency or record and help increase your brand awareness.</h2>
                     <div>
-                        <a href="#about" class="btn-get-started scrollto">Creating trustful business</a>
+                        <a href="#about" class="btn-get-started scrollto">Become an Advertiser</a>
                     </div>
                 </div>
 
@@ -270,7 +269,7 @@
                         <h3 class="cta-title">Direct offers or
                             exclusive Smartlinks?</h3>
                         <p class="cta-text">
-                            Whatever you choose, iMonetizeIt will give you multiple opportunities for the best performance.</p>
+                            Whatever you choose, MountApp will give you multiple opportunities for the best performance.</p>
                     </div>
 
                 </div>
@@ -307,7 +306,7 @@
                          data-aos-delay="150">
                         <h4>Free tracker</h4>
                         <p>
-                            Working with iMonetizeIt you'll get a free tool for optimization of your campaigns.
+                            Working with Mountaff you'll get a free tool for optimization of your campaigns.
                             AdsBridge is TDS and tracker wich perfectly fits the needs of any affiliate.
                         </p>
                         <h4>IMI loyalty</h4>
@@ -324,88 +323,6 @@
         </section><!-- End Features Section -->
 
      
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="zoom-in">
-
-                <header class="section-header">
-                    <h3>Testimonials</h3>
-                </header>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-
-                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-1.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Saul Goodman</h3>
-                                        <h4>Ceo &amp; Founder</h4>
-                                        <p>
-                                            CPAfull exists to bring advertisers and affiliates together in an optimal
-                                            advertisement environment,
-                                            I work in a great team of professionals.
-                                            we are all firends and doing our part of job.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-2.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Sara Wilsson</h3>
-                                        <h4>Designer</h4>
-                                        <p>
-                                            Our priority is efficiency in client support. We take care of everything, we
-                                            do it well.
-                                            If you'd like to work with CPAfull either as an advertiser or an affiliate,
-                                            contact me.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-3.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Jena Karlis</h3>
-                                        <h4>Store Owner</h4>
-                                        <p>
-                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
-                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
-                                            fore quis sint minim.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-4.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Matt Brandon</h3>
-                                        <h4>Freelancer</h4>
-                                        <p>
-                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export
-                                            minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt
-                                            elit fore quem dolore labore illum veniam.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Testimonials Section -->
-
      
 
 
@@ -461,7 +378,7 @@
                                 You will qualify for Bi-weekly payments after a month of running traffic. This gives us
                                 time to anaylze your traffic
                                 and also establish a good relationship with you the affiliate.
-                                and we require you make over $2500 every two weeks.
+                                and we require you make over $1000 every two weeks.
                             </p>
                         </div>
                     </li>
@@ -513,7 +430,7 @@
                                 Typically a wire takes 24 hrs if you are a US affiliate. If you are outside of the USA
                                 it typically can take anywhere
                                 from 1-3 business days. If for some reason it is taking longer please email us at
-                                accounting@Cpafull.com
+                                support@mountaff.com
                             </p>
                         </div>
                     </li>
