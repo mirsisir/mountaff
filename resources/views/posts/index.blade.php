@@ -63,20 +63,25 @@
                             <td>
 
                                 <form method="POST" action="{!! route('posts.post.destroy', $post->id) !!}" accept-charset="UTF-8">
-                                <input name="_method" value="DELETE" type="hidden">
+                               
+                                    <input name="_method" value="DELETE" type="hidden">
                                 {{ csrf_field() }}
 
                                     <div class="btn-group btn-group-sm float-right " role="group">
                                         <a href="{{ route('posts.post.show', $post->id ) }}"title="Show Post">
-                                            <i class="fa fa-eye text-info" aria-hidden="true"></i>
+                                            <i9 class="fa fa-eye text-info" aria-hidden="true"></i>
                                         </a>
                                         <a href="{{ route('posts.post.edit', $post->id ) }}" class="mx-4" title="Edit Post">
                                             <i class="fas fa-edit text-primary" aria-hidden="true"></i>
                                         </a>
 
+                                        @if ($post->id !==1)
+
                                         <button type="submit" style="border: none;background: transparent"  title="Delete Post" onclick="return confirm(&quot;Click Ok to delete Post.&quot;)">
                                             <i class=" fas  fa-trash text-danger" aria-hidden="true"></i>
                                         </button>
+                                        @endif
+                                        
                                     </div>
 
                                 </form>

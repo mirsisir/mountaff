@@ -12,6 +12,7 @@ class WebsiteController extends Controller
         return view('web.web_index');
     }
 
+
     public function blog()
     {
 
@@ -38,4 +39,27 @@ class WebsiteController extends Controller
 
         return view('web.privacypolicy');
     }
+
+
+    public function terms()
+    {
+
+        return view('web.terms');
+    }
+
+
+
+    public function event()
+    {
+
+        $post = \App\Models\Post::find(1);
+        $randoms = \App\Models\Post::inRandomOrder()->limit(6)->get();
+//        dd($post);
+        return view('web.event', compact('post','randoms'));
+    }
+
+
+
+
+
 }
