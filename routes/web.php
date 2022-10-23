@@ -25,6 +25,11 @@ Route::get('/', [WebsiteController::class, 'index'])->name('website_home');
 // Example Routes
 
 Route::get('/blog', [WebsiteController::class, 'blog'])->name('blog');
+
+Route::get('/terms', [WebsiteController::class, 'terms'])->name('terms');
+
+Route::get('/event', [WebsiteController::class, 'event'])->name('event');
+
 Route::get('/pages/{slug}', [WebsiteController::class, 'page'])->name('blog.page');
 Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name('privacypolicy');
 
@@ -34,10 +39,10 @@ Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name(
 
 Route::middleware(['auth'])->group(function () {
     Route::match(['get', 'post'], '/dashboard', function () {
-        //    dd('test');
-            return view('dashboard');
-        });
-        
+//    dd('test');
+    return view('dashboard');
+});
+
     Route::match(['get', 'post'], '/home', function () {
         //    dd('test');
             return view('dashboard');

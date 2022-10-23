@@ -5,7 +5,9 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center" data-aos="fade-up">
                 <div class="col intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2 style="    text-shadow: 2px 1px 3px rgb(55, 52, 52);;color:white">We can help you build your marketing campaign as your exclusive agency or record and help increase your brand awareness.</h2>
+                    <h2 style="    text-shadow: 2px 1px 3px rgb(55, 52, 52);color:white;"> 
+                        We are here to increase your profit
+</h2>
                     <div>
                         <a href="#about" class="btn-get-started scrollto">Become an Advertiser</a>
                     </div>
@@ -55,16 +57,21 @@
                                 wide branding as well as direct response campaigns, and Publishers to monetize traffic
                                 from all over the world</p>
                             <ul>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
-                                </li>
-                                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.
-                                </li>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                                </li>
+
+                                <li><i class="bi bi-check-circle"></i>Easy and fast to implement S2S tracking can get you on board in an hour </li>
+
+                                <li><i class="bi bi-check-circle"></i>Direct and exclusive offers with highest payouts possible </li>
+
+                                <li><i class="bi bi-check-circle"></i>We work with many reputable companies who can confirm our quality </li>
+
+                                <li><i class="bi bi-check-circle"></i>We have traffic from more than 190 countries in the world </li>
+
+                                <li><i class="bi bi-check-circle"></i>More than 1000 live traffic sources </li>
+
+                                <li><i class="bi bi-check-circle"></i>Source optimization can help you benefit and strengthen our partnership </li>
+
+                                
+                           
                             </ul>
                         </div>
                     </div>
@@ -79,8 +86,7 @@
 
                 <header class="section-header">
                     <h3>Services</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant
-                        vituperatoribus.</p>
+                    <p>Variety of verticals: Travel, E-commerce, Gambling, Betting, Crypto, Sweepstakes and more than 3000 dating offers! Yes, dating is our thing.</p>
                 </header>
 
                 <div class="row g-5">
@@ -168,8 +174,7 @@
 
                 <header class="section-header">
                     <h3>Why choose us?</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant
-                        vituperatoribus.</p>
+                    <p>Our goal is to provide the best service to our affiliates and advertisers around the world, by creating the most seamless online marketing experience. To anticipate, evolve, and think one step ahead of the industry.</p>
                 </header>
 
                 <div class="row">
@@ -233,27 +238,31 @@
                 <div class="row counters" data-aos="fade-up" data-aos-delay="100">
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                        <span data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1"
                               class="purecounter"></span>
-                        <p>Clients</p>
+                        <p>Client</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1"
+                        <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1"
                               class="purecounter"></span>
-                        <p>Projects</p>
+                        <p>Offer</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Hours Of Support</p>
+                        <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1"
+                              class="purecounter">
+                            
+                            </span>
+                        <p>Affiliates</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Hard Workers</p>
+                        <h4 style="font-weight: bold;
+                        font-size: 40px;
+                        display: block;
+                        color: #555186;">24/7</h4>
+                        <p>supports</p>
                     </div>
 
                 </div>

@@ -102,6 +102,9 @@
                                     <li><a href="#about">About us</a></li>
                                     <li><a href="{{route('blog')}}">Blog</a></li>
                                     
+                                    <li><a href="{{route('terms')}}">Terms & Condition</a></li>
+                                    <li><a href="{{route('event')}}">Event</a></li>
+
                                     <li><a href="{{route('privacypolicy')}}">Privacy policy</a></li>
                                 </ul>
                             </div>
@@ -109,10 +112,9 @@
                             <div class="footer-links">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    A108 Adam Street <br>
-                                    New York, NY 535022<br>
-                                    United States <br>
-                                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                                    Liubomyra Huzara Ave <br>
+                                    3, Kyiv, 03065<br>
+                                    Ukraine <br>
                                     <strong>Email:</strong> support@mountaff.com<br>
                                 </p>
                             </div>

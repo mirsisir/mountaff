@@ -235,7 +235,7 @@
               D<span class="opacity-75">x</span>
             </span>
                     <span class="smini-hidden">
-              Dash<span class="opacity-75">mix</span>
+              Mount<span class="opacity-75">aff</span>
             </span>
                 </a>
                 <!-- END Logo -->
