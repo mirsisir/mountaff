@@ -193,7 +193,7 @@ h6 {
   color: #413e66;
   white-space: nowrap;
   transition: 0.3s;
-  color: black;
+  color: rgb(241, 239, 239);
 }
 
 .navbar a i,
@@ -207,7 +207,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #e7edee;
+  color: #020405;
 }
 
 .navbar .dropdown ul {
