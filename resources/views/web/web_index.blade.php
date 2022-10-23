@@ -5,7 +5,7 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center" data-aos="fade-up">
                 <div class="col intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2 style="    text-shadow: 2px 1px 3px white;">We can help you build your marketing campaign as your exclusive agency or record and help increase your brand awareness.</h2>
+                    <h2 style="    text-shadow: 2px 1px 3px rgb(55, 52, 52);;color:white">We can help you build your marketing campaign as your exclusive agency or record and help increase your brand awareness.</h2>
                     <div>
                         <a href="#about" class="btn-get-started scrollto">Become an Advertiser</a>
                     </div>
@@ -31,7 +31,7 @@
 
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-                            <img src="{{asset('web/assets/img/about-img.jpg')}}" alt="">
+                            <img src="{{asset('web/assets/img/CPA.png')}}" alt="">
                         </div>
                     </div>
 
@@ -338,7 +338,7 @@
                 <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
 
                     <li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is CPAFULL? <i
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is MountAff? <i
                                     class="bi bi-chevron-down icon-show"></i><i
                                     class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
@@ -436,7 +436,7 @@
                     </li>
                     <li>
                         <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Is there fraud prevention
-                            on the Cpafull network? <i
+                            on the MountAff network? <i
                                     class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
                         </div>
                         <div id="faq6" class="collapse" data-bs-parent=".faq-list">
