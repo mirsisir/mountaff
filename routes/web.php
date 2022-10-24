@@ -34,14 +34,19 @@ Route::get('/pages/{slug}', [WebsiteController::class, 'page'])->name('blog.page
 Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name('privacypolicy');
 
 
-
+Route::match(['get', 'post'], '/test', function () {
+    //    dd('test');
+        return "test";
+    });
 
 
 Route::middleware(['auth'])->group(function () {
+
     Route::match(['get', 'post'], '/dashboard', function () {
 //    dd('test');
     return view('dashboard');
 });
+
 
     Route::match(['get', 'post'], '/home', function () {
         //    dd('test');
