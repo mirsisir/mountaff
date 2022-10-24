@@ -36,7 +36,7 @@ Route::get('/privacypolicy', [WebsiteController::class, 'privacypolicy'])->name(
 
 Route::match(['get', 'post'], '/test', function () {
     //    dd('test');
-        return "test";
+        return "test 2";
     });
 
 
