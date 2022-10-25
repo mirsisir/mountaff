@@ -37,7 +37,7 @@
     <div class="container d-flex align-items-center">
 
         <h1 class="mt-4 me-auto"><a href="{{route('website_home')}}">
-        <img src="{{asset('images/logo.png')}}" alt="logo" class="mainLogo" >
+        <img src="{{asset('images/logo.png')}}" alt="logo" class="mainLogo" width="70">
         </a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">

@@ -275,8 +275,8 @@ h6 {
 } */
 
 .mainLogo{
-  width: 200px;
-  height: 90px;
+  width: 200px !important;
+  height: 90px !important;
 }
 
 @media (max-width: 1366px) {
