@@ -37,19 +37,19 @@
     <div class="container d-flex align-items-center">
 
         <h1 class="mt-4 me-auto"><a href="{{route('website_home')}}">
-        <img src="{{asset('images/logo.png')}}" alt="logo" width="200" height="40" style="height: 90px">
+        <img src="{{asset('images/logo.png')}}" alt="logo" class="mainLogo" >
         </a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto" href="{{route('website_home')}}">Home</a></li>
-                <li><a class="nav-link scrollto" href="{{route('website_home')}}#about">About</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="{{route('website_home')}}">Home</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="{{route('website_home')}}#about">About</a></li>
             
 
 
                 
-                <li><a class="nav-link scrollto" href="#">sign up</a></li>
-                <li><a class="nav-link scrollto" href="#">login</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="#">sign up</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="#">login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
