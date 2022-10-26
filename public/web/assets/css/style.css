@@ -280,6 +280,12 @@ h6 {
     height: 90px !important;
 }
 
+/*@meda (min-width:400){*/
+/*    .container{*/
+/*        margin-top: 100px;*/
+/*    }*/
+/*}*/
+
 @media (max-width: 1366px) {
     .extrasmall {
         font-size: 10px !important;
@@ -304,7 +310,7 @@ h6 {
 
     .mainLogo {
         width: 140px !important;
-        height: 61px !important;
+        height: 54px !important;
     }
 }
 
@@ -445,6 +451,7 @@ h6 {
 
     #hero .container {
         height: auto !important;
+        margin-top: 100px;
     }
 
     #hero .intro-img {
