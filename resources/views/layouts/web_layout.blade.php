@@ -98,7 +98,7 @@
                                 <p>IMonetizeIt provides variety of special abilities to make your business more
                                     profitable.
 
-                                    Increase your revenue with IMI Smart technologies:</p>
+                                    Increase your revenue with MTA Smart technologies:</p>
                             </div>
 
                             <div class="footer-newsletter">

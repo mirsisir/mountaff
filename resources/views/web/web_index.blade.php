@@ -195,7 +195,7 @@
                                 <h4>CPA</h4>
                                 <p>Get a list of exclusive and in-house offers with high payouts based on CPA, CPL
                                     pricing models!
-                                    Verticals: Dating, Sweepstakes, Nutra, IVR and Games. IMI CPA will be good for
+                                    Verticals: Dating, Sweepstakes, Nutra, IVR and Games. MTA CPA will be good for
                                     affiliates who want
                                     to work with offers independently, test their creatives and optimize the funnel. Our
                                     managers pick
@@ -286,7 +286,7 @@
                         <img src="{{asset('web/assets/img/features-1.svg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0" data-aos="fade-left" data-aos-delay="150">
-                        <h4>IMI team</h4>
+                        <h4>MTA team</h4>
                         <p>
                             You get a Personal Account Manager 24/7, who is professional, helpful and responsive.
                         </p>
@@ -309,7 +309,7 @@
                             Working with iMonetizeIt you'll get a free tool for optimization of your campaigns.
                             AdsBridge is TDS and tracker wich perfectly fits the needs of any affiliate.
                         </p>
-                        <h4>IMI loyalty</h4>
+                        <h4>MTA loyalty</h4>
                         <p>
                             Traditionally we reward and hold contests with multiple gifts for our partners.
                             It’s an integral part of our friendly corporate philosophy.
