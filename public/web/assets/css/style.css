@@ -274,11 +274,11 @@ h6 {
   }
 } */
 
-.mainLogo {
-    width: 140px !important;
-    height: 61px !important;
-}
 
+.mainLogo {
+    width: 230px !important;
+    height: 90px !important;
+}
 
 @media (max-width: 1366px) {
     .extrasmall {
@@ -301,9 +301,10 @@ h6 {
         color: rgb(241, 239, 239);
     }
 
+
     .mainLogo {
-        width: 230px !important;
-        height: 90px !important;
+        width: 140px !important;
+        height: 61px !important;
     }
 }
 
