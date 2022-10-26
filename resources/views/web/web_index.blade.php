@@ -5,9 +5,11 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center" data-aos="fade-up">
                 <div class="col intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2 style="    text-shadow: 2px 1px 3px white;">Your Smartlink. Your CPA.<br> Your ONE Network<br>for Your <span>Business!</span></h2>
+                    <h2 style="    text-shadow: 2px 1px 3px rgb(55, 52, 52);color:white;"> 
+                        We are here to increase your profit
+</h2>
                     <div>
-                        <a href="#about" class="btn-get-started scrollto">Creating trustful business</a>
+                        <a href="#about" class="btn-get-started scrollto">Become an Advertiser</a>
                     </div>
                 </div>
 
@@ -31,7 +33,7 @@
 
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-                            <img src="{{asset('web/assets/img/about-img.jpg')}}" alt="">
+                            <img src="{{asset('web/assets/img/CPA.png')}}" alt="">
                         </div>
                     </div>
 
@@ -55,16 +57,21 @@
                                 wide branding as well as direct response campaigns, and Publishers to monetize traffic
                                 from all over the world</p>
                             <ul>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
-                                </li>
-                                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.
-                                </li>
-                                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                                </li>
+
+                                <li><i class="bi bi-check-circle"></i>Easy and fast to implement S2S tracking can get you on board in an hour </li>
+
+                                <li><i class="bi bi-check-circle"></i>Direct and exclusive offers with highest payouts possible </li>
+
+                                <li><i class="bi bi-check-circle"></i>We work with many reputable companies who can confirm our quality </li>
+
+                                <li><i class="bi bi-check-circle"></i>We have traffic from more than 190 countries in the world </li>
+
+                                <li><i class="bi bi-check-circle"></i>More than 1000 live traffic sources </li>
+
+                                <li><i class="bi bi-check-circle"></i>Source optimization can help you benefit and strengthen our partnership </li>
+
+                                
+                           
                             </ul>
                         </div>
                     </div>
@@ -79,8 +86,7 @@
 
                 <header class="section-header">
                     <h3>Services</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant
-                        vituperatoribus.</p>
+                    <p>Variety of verticals: Travel, E-commerce, Gambling, Betting, Crypto, Sweepstakes and more than 3000 dating offers! Yes, dating is our thing.</p>
                 </header>
 
                 <div class="row g-5">
@@ -168,8 +174,7 @@
 
                 <header class="section-header">
                     <h3>Why choose us?</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant
-                        vituperatoribus.</p>
+                    <p>Our goal is to provide the best service to our affiliates and advertisers around the world, by creating the most seamless online marketing experience. To anticipate, evolve, and think one step ahead of the industry.</p>
                 </header>
 
                 <div class="row">
@@ -233,27 +238,31 @@
                 <div class="row counters" data-aos="fade-up" data-aos-delay="100">
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                        <span data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1"
                               class="purecounter"></span>
-                        <p>Clients</p>
+                        <p>Client</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1"
+                        <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1"
                               class="purecounter"></span>
-                        <p>Projects</p>
+                        <p>Offer</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Hours Of Support</p>
+                        <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1"
+                              class="purecounter">
+                            
+                            </span>
+                        <p>Affiliates</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Hard Workers</p>
+                        <h4 style="font-weight: bold;
+                        font-size: 40px;
+                        display: block;
+                        color: #555186;">24/7</h4>
+                        <p>supports</p>
                     </div>
 
                 </div>
@@ -269,7 +278,7 @@
                         <h3 class="cta-title">Direct offers or
                             exclusive Smartlinks?</h3>
                         <p class="cta-text">
-                            Whatever you choose, iMonetizeIt will give you multiple opportunities for the best performance.</p>
+                            Whatever you choose, MountApp will give you multiple opportunities for the best performance.</p>
                     </div>
 
                 </div>
@@ -306,7 +315,7 @@
                          data-aos-delay="150">
                         <h4>Free tracker</h4>
                         <p>
-                            Working with iMonetizeIt you'll get a free tool for optimization of your campaigns.
+                            Working with Mountaff you'll get a free tool for optimization of your campaigns.
                             AdsBridge is TDS and tracker wich perfectly fits the needs of any affiliate.
                         </p>
                         <h4>MTA loyalty</h4>
@@ -322,465 +331,10 @@
             </div>
         </section><!-- End Features Section -->
 
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio section-bg">
-            <div class="container" data-aos="fade-up">
+     
+     
 
-                <header class="section-header">
-                    <h3 class="section-title">Our Portfolio</h3>
-                </header>
 
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-12">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/app1.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">App 1</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/app1.jpg')}}"
-                                       data-gallery="portfolioGallery" title="App 1"
-                                       class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/web3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Web 3</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/web3.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/app2.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">App 2</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/app2.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="App 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/card2.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Card 2</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/card2.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Card 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/web2.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Web 2</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/web2.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Web 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/app3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">App 3</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/app3.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="App 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/card1.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Card 1</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/card1.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Card 1"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/card3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Card 3</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/card3.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Card 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('web/assets/img/portfolio/web1.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html">Web 1</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('web/assets/img/portfolio/web1.jpg')}}"
-                                       class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
-                                       title="Web 1"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" class="link-details" title="More Details"><i
-                                                class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Portfolio Section -->
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="zoom-in">
-
-                <header class="section-header">
-                    <h3>Testimonials</h3>
-                </header>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-
-                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-1.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Saul Goodman</h3>
-                                        <h4>Ceo &amp; Founder</h4>
-                                        <p>
-                                            CPAfull exists to bring advertisers and affiliates together in an optimal
-                                            advertisement environment,
-                                            I work in a great team of professionals.
-                                            we are all firends and doing our part of job.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-2.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Sara Wilsson</h3>
-                                        <h4>Designer</h4>
-                                        <p>
-                                            Our priority is efficiency in client support. We take care of everything, we
-                                            do it well.
-                                            If you'd like to work with CPAfull either as an advertiser or an affiliate,
-                                            contact me.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-3.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Jena Karlis</h3>
-                                        <h4>Store Owner</h4>
-                                        <p>
-                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
-                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
-                                            fore quis sint minim.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="{{asset('web/assets/img/testimonial-4.jpg')}}" class="testimonial-img"
-                                             alt="">
-                                        <h3>Matt Brandon</h3>
-                                        <h4>Freelancer</h4>
-                                        <p>
-                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export
-                                            minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt
-                                            elit fore quem dolore labore illum veniam.
-                                        </p>
-                                    </div>
-                                </div><!-- End testimonial item -->
-
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Testimonials Section -->
-
-        <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h3>Team</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <img src="{{asset('web/assets/img/team-1.jpg')}}" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <div class="social">
-                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <img src="{{asset('web/assets/img/team-2.jpg')}}" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <div class="social">
-                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <img src="{{asset('web/assets/img/team-3.jpg')}}" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <div class="social">
-                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="member">
-                            <img src="{{asset('web/assets/img/team-4.jpg')}}" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <div class="social">
-                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Team Section -->
-
-        <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients">
-            <div class="container" data-aos="zoom-in">
-
-                <header class="section-header">
-                    <h3>Our Clients</h3>
-                </header>
-
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-1.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-2.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-3.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-4.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-5.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-6.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-7.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="{{asset('web/assets/img/clients/client-8.png')}}"
-                                                       class="img-fluid" alt=""></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-            </div>
-        </section><!-- End Clients Section -->
-
-        <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing section-bg wow fadeInUp">
-
-            <div class="container" data-aos="fade-up">
-
-                <header class="section-header">
-                    <h3>Pricing</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-                </header>
-
-                <div class="row flex-items-xs-middle flex-items-xs-center">
-
-                    <!-- Basic Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3><span class="currency">$</span>19<span class="period">/month</span></h3>
-                            </div>
-                            <div class="card-block">
-                                <h4 class="card-title">
-                                    Basic Plan
-                                </h4>
-                                <ul class="list-group">
-                                    <li class="list-group-item">Odio animi voluptates</li>
-                                    <li class="list-group-item">Inventore quisquam et</li>
-                                    <li class="list-group-item">Et perspiciatis suscipit</li>
-                                    <li class="list-group-item">24/7 Support System</li>
-                                </ul>
-                                <a href="#" class="btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Regular Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
-                            </div>
-                            <div class="card-block">
-                                <h4 class="card-title">
-                                    Regular Plan
-                                </h4>
-                                <ul class="list-group">
-                                    <li class="list-group-item">Odio animi voluptates</li>
-                                    <li class="list-group-item">Inventore quisquam et</li>
-                                    <li class="list-group-item">Et perspiciatis suscipit</li>
-                                    <li class="list-group-item">24/7 Support System</li>
-                                </ul>
-                                <a href="#" class="btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Premium Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3><span class="currency">$</span>39<span class="period">/month</span></h3>
-                            </div>
-                            <div class="card-block">
-                                <h4 class="card-title">
-                                    Premium Plan
-                                </h4>
-                                <ul class="list-group">
-                                    <li class="list-group-item">Odio animi voluptates</li>
-                                    <li class="list-group-item">Inventore quisquam et</li>
-                                    <li class="list-group-item">Et perspiciatis suscipit</li>
-                                    <li class="list-group-item">24/7 Support System</li>
-                                </ul>
-                                <a href="#" class="btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </section><!-- End Pricing Section -->
 
         <!-- ======= F.A.Q Section ======= -->
         <section id="faq" class="faq">
@@ -793,7 +347,7 @@
                 <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
 
                     <li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is CPAFULL? <i
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is MountAff? <i
                                     class="bi bi-chevron-down icon-show"></i><i
                                     class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
@@ -833,7 +387,7 @@
                                 You will qualify for Bi-weekly payments after a month of running traffic. This gives us
                                 time to anaylze your traffic
                                 and also establish a good relationship with you the affiliate.
-                                and we require you make over $2500 every two weeks.
+                                and we require you make over $1000 every two weeks.
                             </p>
                         </div>
                     </li>
@@ -885,13 +439,13 @@
                                 Typically a wire takes 24 hrs if you are a US affiliate. If you are outside of the USA
                                 it typically can take anywhere
                                 from 1-3 business days. If for some reason it is taking longer please email us at
-                                accounting@Cpafull.com
+                                support@mountaff.com
                             </p>
                         </div>
                     </li>
                     <li>
                         <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Is there fraud prevention
-                            on the Cpafull network? <i
+                            on the MountAff network? <i
                                     class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
                         </div>
                         <div id="faq6" class="collapse" data-bs-parent=".faq-list">

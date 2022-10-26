@@ -1,13 +1,19 @@
 @extends('layouts.web_layout')
 @section('content')
     <main id="main">
+        <style>
+            #header.header-transparent {
+            background: transparent !important;
+            background-color: #1bb1dc !important;
+}
+        </style>
 
         <!-- ======= Breadcrumbs ======= -->
         <section id="breadcrumbs" class="breadcrumbs">
             <div class="container">
 
                 <ol>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li>Privacy Policy</li>
                 </ol>
                 <h2>Privacy Policy</h2>
