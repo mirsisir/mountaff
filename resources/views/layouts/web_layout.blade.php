@@ -48,8 +48,8 @@
 
 
                 
-                <li><a class="nav-link scrollto extrasmall" href="#">sign up</a></li>
-                <li><a class="nav-link scrollto extrasmall" href="#">login</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="https://partner.mountaff.com/register?for=2">sign up</a></li>
+                <li><a class="nav-link scrollto extrasmall" href="https://partner.mountaff.com/">login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -123,6 +123,7 @@
                                 <a href="https://twitter.com/AffMount" class="twitter"><i class="bi bi-twitter"></i></a>
                             
                                 <a href="https://www.linkedin.com/company/mountaff" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100087465691996" class="facebook"><i class="bi bi-facebook"></i></a>
                             </div>
 
                         </div>

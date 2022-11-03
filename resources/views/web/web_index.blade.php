@@ -9,7 +9,7 @@
                         We are here to increase your profit
 </h2>
                     <div>
-                        <a href="#about" class="btn-get-started scrollto">Become an Advertiser</a>
+                        <a href="https://partner.mountaff.com/register?for=3" class="btn-get-started scrollto">Become an Advertiser</a>
                     </div>
                 </div>
 
